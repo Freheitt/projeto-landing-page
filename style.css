@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  text-decoration: none;
+}
+
+:root {
+    --corv: #77FA88;
+    --cora: #FFFC71;
+    --corz: #0D0D0D;
+}
+
+header {
+    position: relative;
+    background-color: var(--corz);
+    height: 160px;
+    padding: 0px 0px 10px 0px;
+    margin-top: -20px;
+    box-shadow: 1px 1px 2px #00000083;
+}
+
+header > h1 {
+    color: var(--cora);
+    font-family: 'Sarala';
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px var(--cora);
+}
+
+nav {
+    word-spacing: -2px;
+    
+}
+nav a {
+    display: inline-block;
+    font-family: 'sarala';
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+nav a {
+    border-right: 2px solid white;
+    height: 25px;
+    padding-right: 25px;
+    
+}
+
+nav a:hover {
+    background-color: var(--corv);
+    text-decoration: underline;
+    color: blue;
+    border-radius: 5px 0px 5px 0px;
+    padding: 2px;
+    transition: 0.5s;
+}
+
+main > h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+
+}
+
+.meio {
+  padding: 10px;
+}
+
+
+main {
+    max-width: 700px;
+    height: auto;
+    background-color: #ADD9D1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 15px;
+    margin-left: auto;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 2px #00000099;
+    margin-right: auto
+    
+}
+div > h1 {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(15,154,221);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #00000084;
+  
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+.img1 {
+    padding-top: 20px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border-top: 15px solid var(--corv);
+    border-bottom: 8px solid blue;
+    
+    
+}
+
+p {
+    background-color: white;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    font-weight: bold;
+    margin: 0px -10px 0px -10px;
+    
+  
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    background: rgb(30,32,33);
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid var(--corv);
+    box-shadow: 1px 1px 2px #0000008b;
+    margin: 20px 0px 20px 0px;
+}
+
+button a {
+    color: rgb(15,154,221);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    height: 45px;
+    width: 120px;
+    background-color: rgb(15,154,221);
+    transition: 0.5s;
+}
+
+button ,a:hover {
+    color: rgb(30,32,33);
+    transition: 0.5s;
+    
+}
+footer {
+    background-color: black;
+    padding: 8px 0px 8px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+footer h3 {
+    color: rgba(255,252,113,0.688);
+    text-align: center;
+    font-size: 8px;
+}
