@@ -42,11 +42,16 @@ button:hover {
 
 button a:hover {
   font-size: 10px;
+  
 }
 
 .parent {
   display: inline-block;
   text-align: center;
+  margin-top: -76px;
+  display: block;
+  margin-left: 50vw;
+  margin-right: 50vw;
   
   
 }
@@ -82,10 +87,11 @@ main {
 }
 
 iframe {
+  display: flex;
   width: 300px;
   height: auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h1game {
